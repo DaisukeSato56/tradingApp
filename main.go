@@ -1,11 +1,12 @@
 package main
 
 import (
-	"fmt"
+	"log"
 	"myApp/tradingApp/config"
+	"myApp/tradingApp/utils"
 )
 
 func main() {
-	fmt.Println(config.Config.ApiKey)
-	fmt.Println(config.Config.ApiSecret)
+	utils.LoggingSettings(config.Config.LogFile)
+	log.Println("test")
 }
