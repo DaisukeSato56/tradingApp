@@ -1,1 +1,13 @@
 2018/11/09 17:33:19 main.go:11: test
+2018/11/12 17:15:17 bitflyer.go:62: action=doRequest endpoint=https://api.bitflyer.com/v1/me/getbalance
+2018/11/12 17:15:17 bitflyer.go:34: 1542010517
+2018/11/12 17:15:18 bitflyer.go:103: url=me/getbalance resp={"status":-500,"error_message":"Key not found","data":null}
+2018/11/12 17:15:18 bitflyer.go:113: action=GetBalance err=json: cannot unmarshal object into Go value of type []bitflyer.Balance
+2018/11/12 17:27:07 bitflyer.go:62: action=doRequest endpoint=https://api.bitflyer.com/v1/ticker
+2018/11/12 17:27:07 bitflyer.go:34: 1542011227
+2018/11/12 17:27:07 bitflyer.go:141: action=DateTime, err=parsing time "2018-11-12T08:27:07.157" as "2006-01-02T15:04:05Z07:00": cannot parse "" as "Z07:00"
+2018/11/12 17:27:07 bitflyer.go:141: action=DateTime, err=parsing time "2018-11-12T08:27:07.157" as "2006-01-02T15:04:05Z07:00": cannot parse "" as "Z07:00"
+2018/11/12 17:28:04 bitflyer.go:62: action=doRequest endpoint=https://api.bitflyer.com/v1/ticker
+2018/11/12 17:28:04 bitflyer.go:34: 1542011284
+2018/11/12 17:28:05 bitflyer.go:141: action=DateTime, err=parsing time "2018-11-12T08:28:02.203" as "2006-01-02T15:04:05Z07:00": cannot parse "" as "Z07:00"
+2018/11/12 17:28:05 bitflyer.go:141: action=DateTime, err=parsing time "2018-11-12T08:28:02.203" as "2006-01-02T15:04:05Z07:00": cannot parse "" as "Z07:00"
